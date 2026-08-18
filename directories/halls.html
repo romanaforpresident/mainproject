@@ -13,6 +13,16 @@
 </head>
 
 <body>
+<script>
+const song = new Audio("../audio/fbslak.mp3");
+song.loop = true;
+song.volume = 1;
+song.play()
+document.addEventListener('click', (event) => {
+song.play();
+});
+</script>
+	
 	<p>yo</p>
 </body>
 </html>
